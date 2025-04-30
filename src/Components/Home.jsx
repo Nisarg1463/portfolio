@@ -13,7 +13,7 @@ export default function Home() {
         {/* Avatar or Game Icon */}
         <div className="mb-6">
           <img
-            src="https://api.dicebear.com/7.x/pixel-art/svg?seed=hero"
+            src="https://api.dicebear.com/7.x/pixel-art/svg?seed=hero&size=256"
             alt="Avatar"
             className="w-28 h-28 rounded-full border-4 border-yellow-400 shadow-lg"
           />

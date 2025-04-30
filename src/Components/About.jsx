@@ -20,18 +20,29 @@ export default function About() {
           Nisarg Patel
         </h1>
         <h2 className="text-xl text-[#eebbc3] mb-4 text-center font-semibold">
-          Game Developer & Full Stack Engineer
+          Game Designer & Full Stack Developer
         </h2>
+
+        {/* Download Resume Button */}
+        <a
+          href="/Assets/portfolio.pdf"
+          download
+          className="mb-6 inline-block px-6 py-2 bg-yellow-400 hover:bg-yellow-300 text-[#232946] font-bold rounded-xl shadow-lg text-base transition-all border-2 border-yellow-300"
+        >
+          📄 Download Resume (PDF)
+        </a>
+
         {/* Bio */}
         <p className="text-gray-200 text-lg text-center mb-6">
-          Welcome to my character sheet! I’m a passionate developer who loves
-          building interactive, immersive experiences-whether that’s through
-          games, web apps, or experimental prototypes. My journey has taken me
-          from designing AI-driven survival games to integrating productivity
-          tools inside virtual worlds, always with a focus on creativity, user
-          experience, and technical excellence.
+          I’m a passionate game designer and developer with a strong foundation
+          in computer science and hands-on experience across Unreal Engine,
+          Unity, and full stack web development. I thrive on building immersive
+          worlds, innovative mechanics, and intuitive user experiences-whether
+          in games, apps, or research-driven prototypes. My journey includes
+          leading teams, teaching others, and earning recognition for my
+          creative and technical achievements.
         </p>
-        {/* "Stats" */}
+        {/* Stats */}
         <div className="grid grid-cols-2 gap-6 mb-6 w-full max-w-md">
           <div className="flex flex-col items-center">
             <span className="text-yellow-300 font-bold text-lg">Level</span>
@@ -42,17 +53,15 @@ export default function About() {
             <span className="text-white text-2xl font-mono">1240</span>
           </div>
           <div className="flex flex-col items-center">
-            <span className="text-yellow-300 font-bold text-lg">
-              Specialties
-            </span>
+            <span className="text-yellow-300 font-bold text-lg">Location</span>
             <span className="text-white text-base font-mono text-center">
-              Game Design, AI, Web Dev
+              Windsor, ON, Canada
             </span>
           </div>
           <div className="flex flex-col items-center">
-            <span className="text-yellow-300 font-bold text-lg">Location</span>
+            <span className="text-yellow-300 font-bold text-lg">Languages</span>
             <span className="text-white text-base font-mono text-center">
-              [Your City/Country]
+              English, Gujarati, Hindi
             </span>
           </div>
         </div>
@@ -63,38 +72,108 @@ export default function About() {
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
+              C#
+            </span>
+            <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
+              Python
+            </span>
+            <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
+              C++
+            </span>
+            <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
+              Java
+            </span>
+            <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
+              JavaScript
+            </span>
+            <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
+              SQL
+            </span>
+            <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
               Unreal Engine
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
               Unity
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
-              React
+              Blender
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
-              Python
+              Maya
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
-              C#
+              Git
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
-              Blueprints
+              Docker
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
-              AI/ML
+              Enemy AI
             </span>
             <span className="bg-yellow-400 text-[#232946] px-3 py-1 rounded-full text-xs font-bold">
-              Web Dev
+              Game Logic Scripting
             </span>
           </div>
         </div>
-        {/* Fun Fact or Achievement */}
-        <div className="bg-[#eebbc3]/20 border border-yellow-400 rounded-lg p-4 text-center text-yellow-200 font-semibold">
+        {/* Education */}
+        <div className="w-full mb-6">
+          <h3 className="text-yellow-300 font-bold text-lg mb-2 text-center">
+            Education
+          </h3>
+          <div className="text-gray-200 text-center text-base">
+            <div>
+              <span className="font-semibold">Master of Applied Computing</span>{" "}
+              - University of Windsor
+              <br />
+              <span className="text-sm text-[#eebbc3]">GPA: 92.3</span>
+            </div>
+            <div className="mt-2">
+              <span className="font-semibold">
+                Bachelor of Engineering, Computer Science and Engineering
+              </span>{" "}
+              - R.N.G. Patel Institute of Technology
+              <br />
+              <span className="text-sm text-[#eebbc3]">CPI: 9.19</span>
+            </div>
+          </div>
+        </div>
+        {/* Achievements */}
+        <div className="w-full mb-6">
+          <h3 className="text-yellow-300 font-bold text-lg mb-2 text-center">
+            Achievements & Leadership
+          </h3>
+          <ul className="text-gray-200 text-base list-disc pl-6">
+            <li>
+              Best Presentation Award, Demo Day, University of Windsor (2024)
+            </li>
+            <li>
+              Organizer, 9-week Unreal Engine 5 Workshop Series, University of
+              Windsor
+            </li>
+            <li>
+              Core Member, Google Developer Student Clubs (GDSC), R.N.G. Patel
+              Institute of Technology
+            </li>
+            <li>
+              Volunteer Computer Instructor, Sardar Patel English Medium School
+            </li>
+            <li>Full Stack Developer Intern, L&T Heavy Engineering</li>
+          </ul>
+        </div>
+        {/* Fun Fact or Interests */}
+        <div className="bg-[#eebbc3]/20 border border-yellow-400 rounded-lg p-4 text-center text-yellow-200 font-semibold mb-2">
           <span role="img" aria-label="trophy">
             🏆
           </span>{" "}
-          Always ready for the next quest-let’s build something extraordinary
-          together!
+          Favorite games: NFS Most Wanted, Cricket 07, FIFA 14, Call Of Duty
+          Black OPS 2, GTA V, Call Of Duty Mobile
+        </div>
+        <div className="bg-[#eebbc3]/20 border border-yellow-400 rounded-lg p-4 text-center text-yellow-200 font-semibold">
+          <span role="img" aria-label="star">
+            ⭐
+          </span>{" "}
+          Interests: Formula 1, Volleyball, Badminton, Cubes & Puzzles,
+          Adventure Sports, Bike Riding, Road Trips
         </div>
       </motion.section>
     </div>
